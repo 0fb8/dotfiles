@@ -48,3 +48,7 @@ alias gpsh='git push origin $(git branch --show-current)'
 alias gl='git log --oneline --graph --decorate'
 alias gd='git diff'
 alias gdc='git diff --cached'
+
+alias gb='git branch'
+alias gsw='git switch'
+
