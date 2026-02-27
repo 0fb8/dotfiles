@@ -17,6 +17,7 @@ bindkey "^N" history-beginning-search-forward-end
 PROMPT='%F{cyan}%~ %f%(#.#.$) '
 
 setopt auto_cd
+hash -d p="$HOME/projects/"
 
 
 # alias ------------------------------------
