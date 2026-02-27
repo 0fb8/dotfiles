@@ -27,6 +27,7 @@ alias ll='ls -l'
 alias la='ls -lA'
 
 alias -g G='| grep'
+alias -g H='| head'
 alias -g L='| less'
 alias -g W='| wc -l'
 alias -g C='| clip.exe'
