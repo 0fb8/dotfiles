@@ -18,18 +18,23 @@ PROMPT='%F{cyan}%~ %f%(#.#.$) '
 
 setopt auto_cd
 
-alias ...='../../'
-alias ....='../../../'
-alias .....='../../../../'
 
-alias ls='ls -F --color=auto'
-alias ll='ls -l'
-alias la='ls -lA'
+# alias ------------------------------------
 
+## global ===================
 alias -g G='| grep'
 alias -g H='| head'
 alias -g L='| less'
 alias -g W='| wc -l'
 alias -g C='| clip.exe'
 
+## cd ======================
+alias ...='../../'
+alias ....='../../../'
+alias .....='../../../../'
+
+## ls ======================
+alias ls='ls -F --color=auto'
+alias ll='ls -l'
+alias la='ls -lA'
 
