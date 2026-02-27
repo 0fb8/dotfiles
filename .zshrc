@@ -38,3 +38,13 @@ alias ls='ls -F --color=auto'
 alias ll='ls -l'
 alias la='ls -lA'
 
+## git =====================
+alias g='git'
+alias gs='git status'
+alias ga='git add'
+alias gcm='git commit -m'
+alias gpsh='git push origin $(git branch --show-current)'
+
+alias gl='git log --oneline --graph --decorate'
+alias gd='git diff'
+alias gdc='git diff --cached'
