@@ -24,7 +24,7 @@ alias .....='../../../../'
 
 alias ls='ls -F --color=auto'
 alias ll='ls -l'
-alias la='ls -la'
+alias la='ls -lA'
 
 alias -g G='| grep'
 alias -g L='| less'
