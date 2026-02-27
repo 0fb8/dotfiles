@@ -22,6 +22,7 @@ alias ...='../../'
 alias ....='../../../'
 alias .....='../../../../'
 
+alias ls='ls -F --color=auto'
 alias ll='ls -l'
 alias la='ls -la'
 
