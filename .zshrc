@@ -30,6 +30,8 @@ alias -g L='| less'
 alias -g W='| wc -l'
 alias -g C='| clip.exe'
 
+alias open='explorer.exe'
+
 ## cd ======================
 alias ...='../../'
 alias ....='../../../'
