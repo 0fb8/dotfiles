@@ -19,6 +19,7 @@ PROMPT='%F{cyan}%~ %f%(#.#.$) '
 setopt auto_cd
 hash -d d="$HOME/dotfiles/"
 hash -d p="$HOME/projects/"
+hash -d b="$HOME/projects/blog/"
 
 
 # alias ------------------------------------
