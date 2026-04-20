@@ -60,3 +60,14 @@ alias gdc='git diff --cached'
 alias gb='git branch'
 alias gsw='git switch'
 
+## docker ==================
+alias d='docker'
+alias di='docker images'
+
+alias dcu='docker compose up -d'
+alias dcd='docker compose down'
+alias dce='docker compose exec'
+alias dcp='docker compose ps'
+alias dcl='docker compose logs -f'
+alias dcb='docker compose build'
+
