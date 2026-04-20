@@ -37,6 +37,9 @@ alias open='explorer.exe'
 alias ...='../../'
 alias ....='../../../'
 alias .....='../../../../'
+mkcd() {
+  mkdir -p "$1" && cd "$1"
+}
 
 ## ls ======================
 alias ls='ls -F --color=auto'
