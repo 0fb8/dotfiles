@@ -53,6 +53,8 @@ alias ga='git add'
 alias gcm='git commit -m'
 alias gpsh='git push origin $(git branch --show-current)'
 
+alias gus='git restore --staged'
+
 alias gl='git log --oneline --graph --decorate'
 alias gd='git diff'
 alias gdc='git diff --cached'
