@@ -63,6 +63,7 @@ alias gb='git branch'
 alias gsw='git switch'
 alias gsh='git show'
 alias gl='git log --oneline --graph --decorate'
+alias gls='git ls-files'
 alias ggrep='git grep'
 
 ## docker ==================
