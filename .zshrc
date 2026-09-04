@@ -50,17 +50,20 @@ alias la='ls -lA'
 alias g='git'
 alias gs='git status'
 alias ga='git add'
-alias gcm='git commit -m'
-alias gpsh='git push origin $(git branch --show-current)'
-
 alias gus='git restore --staged'
-
-alias gl='git log --oneline --graph --decorate'
 alias gd='git diff'
 alias gdc='git diff --cached'
-
+alias gadc='git add . && git diff --cached'
+alias gcm='git commit -m'
+alias gcma='git commit --amend -m'
+alias gf='git fetch'
+alias gpl='git pull origin $(git branch --show-current)'
+alias gpsh='git push origin $(git branch --show-current)'
 alias gb='git branch'
 alias gsw='git switch'
+alias gsh='git show'
+alias gl='git log --oneline --graph --decorate'
+alias ggrep='git grep'
 
 ## docker ==================
 alias d='docker'
