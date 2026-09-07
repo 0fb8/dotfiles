@@ -30,6 +30,7 @@ alias -g H='| head'
 alias -g L='| less'
 alias -g W='| wc -l'
 alias -g C='| clip.exe'
+alias -g F='| fzf'
 
 alias open='explorer.exe'
 
@@ -45,6 +46,11 @@ mkcd() {
 alias ls='ls -F --color=auto'
 alias ll='ls -l'
 alias la='ls -lA'
+
+## fzf =====================
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+alias cdf='cd $(ls -a | fzf)'
+alias fv='vim $(ls -a | fzf)'
 
 ## git =====================
 alias g='git'
