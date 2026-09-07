@@ -84,3 +84,7 @@ alias dcp='docker compose ps'
 alias dcl='docker compose logs -f'
 alias dcb='docker compose build'
 
+## python ==================
+alias python='python3'
+alias venv='source ./.venv/bin/activate'
+
