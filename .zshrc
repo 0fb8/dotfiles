@@ -33,6 +33,7 @@ alias -g C='| clip.exe'
 alias -g F='| fzf'
 
 alias open='explorer.exe'
+alias notepad='notepad.exe'
 
 ## cd ======================
 alias ...='../../'
