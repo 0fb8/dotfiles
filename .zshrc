@@ -89,3 +89,8 @@ alias dcb='docker compose build'
 alias python='python3'
 alias venv='source ./.venv/bin/activate'
 
+
+# PATH ------------------------------------
+
+export PATH="$HOME/.local/bin:$PATH"
+
